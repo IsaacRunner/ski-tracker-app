@@ -113,11 +113,11 @@ if uploaded_zip is not None:
 
             scol1, scol2, scol3, scol4, scol5, scol6 = st.columns(6)
             scol1.metric("Lift Time", f"{lift_time} sec")
-            scol2.metric("Percentage of Time on Lift", f"{lift_time/total_time*100} %")
+            scol2.metric("Percentage of Time on Lift", f"{(lift_time/total_time*100):.2f} %")
             scol3.metric("Groomed Run Time", f"{groomed_time} sec")
-            scol4.metric("Percentage of Time on Groomers", f"{groomed_time/total_time*100} %")
+            scol4.metric("Percentage of Time on Groomers", f"{(groomed_time/total_time*100):.2f} %")
             scol5.metric("Powder Run Time", f"{powder_time} sec")
-            scol6.metric("Percentage of Time on Powder Runs", f"{powder_time/total_time*100} %")
+            scol6.metric("Percentage of Time on Powder Runs", f"{(powder_time/total_time*100):.2f} %")
 
             # --- 6. Visualization ---
             st.subheader("Run Timeline")
