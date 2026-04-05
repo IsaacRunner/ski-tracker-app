@@ -11,12 +11,12 @@ st.title("⛷️ Low-Power Ski Surface Classifier")
 
 # The instructions are written using st.markdown to allow for bolding and bullet points
 st.markdown("""
-Unlike traditional GPS trackers that drain your battery on the mountain, this app uses your phone's low-power IMU sensors to track and classify your ski runs as on the lift, on a powder run, and on a groomed run. 
+Unlike traditional GPS trackers that drain your battery on the mountain, this app uses your phone's low-power IMU sensors to track and classify your ski runs as on the lift, on a powder run, and on a groomed run.
 
 ### How to use this app:
 1. Download the **Sensor Logger** app on your iOS or Android device.
 2. Open the app and toggle **ON** the following three sensors: **Accelerometer**, **Gyroscope**, and **Barometer**.
-3. Hit record, securely stash your phone in a pocket, and go ski!
+3. Hit record, securely stash your phone in a pocket on your thigh for best results, and go ski!
 4. When you are done, stop the recording and export the data as a `.zip` file.
 5. Upload that `.zip` file right here for instant analysis.
 """)
