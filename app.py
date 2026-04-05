@@ -111,7 +111,7 @@ if uploaded_zip is not None:
             powder_time = len(df_results[df_results['classification'] == 'powder']) * step_size_seconds
             total_time = lift_time+groomed_time+powder_time
 
-            scol1, scol2, scol3 = st.columns(3)
+            scol1, scol2, scol3, scol4, scol5, scol6 = st.columns(6)
             scol1.metric("Lift Time", f"{lift_time} sec")
             scol2.metric("Percentage of Time on Lift", f"{lift_time/total_time*100} %")
             scol3.metric("Groomed Run Time", f"{groomed_time} sec")
